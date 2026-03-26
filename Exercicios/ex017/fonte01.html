@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            /*
+            Medidas Absolutas
+            cm, mm, in, 'px', pt, pc
+            
+            Medidas Relativas
+            'em', ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em ;
+            font-weight: bolder;
+            font-style: italic;
+            text-decoration: underline;
+            /* lighter normal bold bolder */
+        }
+        
+        h1 {
+
+            /* Shorthand font
+            - font-style -> font-weight -> font-size -> font-family -> 
+
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;   
+        }
+
+        h2{
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur explicabo animi odio quae aliquid ipsam iusto qui porro alias hic ut rem illo fugiat molestiae earum, dolorem nemo architecto possimus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque sequi consequatur eius perferendis error minus maiores magni ipsum inventore. Quam debitis rerum iste vitae corporis non. Libero a dolores quo.
+    </p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum totam velit enim quod, voluptatum illo natus odio vitae id voluptates minus neque optio ullam dolore dolor quaerat, qui ipsum aperiam?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsum debitis totam est velit quisquam maxime temporibus repellat dignissimos optio natus, ab odit libero incidunt nesciunt cupiditate quidem dolores vel.</p>
+</body>
+</html>
